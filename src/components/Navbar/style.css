@@ -22,7 +22,7 @@
   font-weight: 400;
   text-decoration: none;
   color: #818F05;
-  -webkit-text-stroke: 1px rgba(12, 61, 75, 1);
+  -webkit-text-stroke: 2px white;
 }
 
 .menuBtn {
@@ -58,6 +58,8 @@
   max-width: 100px;
   height: auto;
   border-radius: 100%;
+  border-top: solid 5px white;
+  border-left: solid 5px white;
 }
 
 .logo,

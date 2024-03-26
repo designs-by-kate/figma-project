@@ -1,21 +1,25 @@
 .playSection {
     margin-top: 100px;
-    background-image: url('../../../assets/playBG.jpg');
-    background-size: cover;/* Cover the entire background */
-    background-repeat: no-repeat;/* Do not repeat the background image */
+    background-image: url('../../../assets/playBG.png');
+    background-size: cover;
+    /* Cover the entire background */
+    background-repeat: no-repeat;
+    /* Do not repeat the background image */
     max-height: 1100px;
     width: 100%;
 }
+
 .playContainer {
     padding: 100px;
 }
+
 .playMain {
-    margin: 10px;
     display: flex;
 }
 
 .playText {
-    flex: 0 0 50%; /* Take 60% of the available space */
+    flex: 0 0 45%;
+    /* Take 60% of the available space */
 }
 
 .playTitle {
@@ -38,8 +42,8 @@
     font-size: 30px;
     font-weight: 400;
     text-decoration: none;
-    color: #0c3D4B;
-    -webkit-text-stroke: 1px #DD8764;
+    color: #DD8764;
+    -webkit-text-stroke: 1px white;
     align-self: stretch;
 }
 
@@ -51,14 +55,21 @@
     text-align: left;
     padding: 10px;
     border-radius: 20px 20px 0px 0px;
+    border-left: solid 5px white;
 }
 
 .playImgMain {
-    flex: 1; /* Take the remaining space */
+    flex: 1;
+    /* Take the remaining space */
 }
-.playImgMain img{
+
+.playImgMain img {
     position: relative;
-    max-width: 640px;
+    max-width: 700px;
     border-radius: 50% 0% 0% 0%;
     padding: 10px;
+    -webkit-mask-image: linear-gradient(to bottom left, transparent, black 50%);
+    mask-image: linear-gradient(to bottom left, transparent, black 50%);
+    border-bottom: solid 5px white;
+    border-right: solid 5px white;
 }

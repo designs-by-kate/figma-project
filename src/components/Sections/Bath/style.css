@@ -1,6 +1,6 @@
 .bathSection {
     margin-top: 100px;
-    background-image: url('../../../assets/bathBG.jpg');
+    background-image: url('../../../assets/bathBG.png');
     background-size: cover;/* Cover the entire background */
     background-repeat: no-repeat;/* Do not repeat the background image */
     max-height: 1100px;
@@ -35,7 +35,7 @@
     font-weight: 400;
     text-decoration: none;
     color: #0c3D4B;
-    -webkit-text-stroke: 1px #DD8764;
+    -webkit-text-stroke: 1px white;
 }
 
 .bathTextElement {
@@ -46,6 +46,7 @@
     text-align: left;
     padding: 10px;
     border-radius: 20px;
+    border-bottom: solid 5px white;
 }
 
 .bathImg {
