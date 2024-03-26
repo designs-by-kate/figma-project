@@ -1,0 +1,68 @@
+.bathSection {
+    margin-top: 100px;
+    background-image: url('../../../assets/bathBG.jpg');
+    background-size: cover;/* Cover the entire background */
+    background-repeat: no-repeat;/* Do not repeat the background image */
+    max-height: 1100px;
+    width: 100%;
+}
+.bathContainer {
+    padding: 100px;
+}
+.bathMain {
+    margin: 10px;
+    display: flex;
+}
+
+.bathTitle {
+    display: flex;
+    align-items: center;
+}
+
+.bathTitleIcon img {
+    max-width: 200px;
+    height: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+    max-height: 100%;
+    position: relative;
+}
+
+.bathTitleText {
+    margin-left: 10px;
+    font-family: 'Lemon', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #0c3D4B;
+    -webkit-text-stroke: 1px #DD8764;
+}
+
+.bathTextElement {
+    color: #09353d;
+    background-color: rgba(255, 255, 255, 0.418);
+    font-size: 18px;
+    font-family: 'Lemon', sans-serif;
+    text-align: left;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.bathImg {
+    display: flex;
+  justify-content: space-between; /* Adjust this property based on your spacing preference */
+}
+.bathImgL img{
+    position: relative;
+    max-width: 300px;
+    border-radius: 50% 0% 0% 0%;
+    border-left: solid 5px white;
+    padding: 10px;
+}
+.bathImgR img{
+    position: relative;
+    max-width: 300px;
+    border-radius: 0% 50% 0% 0%;
+    border-right: solid 5px white;
+    padding: 10px;
+}

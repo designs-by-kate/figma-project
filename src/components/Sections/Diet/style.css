@@ -1,0 +1,76 @@
+.dietSection {
+    margin-top: 100px;
+    background-image: url('../../../assets/dietBG.jpg');
+    background-size: cover;/* Cover the entire background */
+    background-repeat: no-repeat;/* Do not repeat the background image */
+    max-height: 1100px;
+    width: 100%;
+}
+.dietContainer {
+    padding: 100px;
+}
+.dietMain {
+    margin: 10px;
+    display: flex;
+}
+
+.dietText {
+    flex: 0 0 60%; /* Take 60% of the available space */
+}
+
+.dietTitle {
+    display: flex;
+    align-items: center;
+}
+
+.dietTitleIcon img {
+    max-width: 200px;
+    height: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+    max-height: 100%;
+    position: relative;
+}
+
+.dietTitleText {
+    margin-left: 10px;
+    font-family: 'Lemon', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FE792A;
+    -webkit-text-stroke: 1px #326b04;
+    align-self: stretch;
+}
+
+.dietTextElement {
+    color: #0b353f;
+    font-size: 18px;
+    font-family: 'Lemon', sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+}
+
+.dietImgMain img{
+    position: relative;
+    max-width: 500px;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.dietGallery {
+    margin-top: 80px;
+    padding-bottom: 50px;
+    display: flex; /* Use flexbox */
+    flex-direction: row; /* Set direction to row */
+    justify-content: space-between; /* Distribute space between items */
+}
+
+.dietGallery img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10%;
+    border: solid 5px #326b04;
+}
