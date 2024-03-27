@@ -4,51 +4,71 @@
 
 This project is a React-based website for Bunnies World, featuring four main pages: Home, Diet, Play, and Bath. The website is designed to be fully responsive, adapting to various screen sizes from desktop to tablet and mobile devices.
 
-##Features
+## Features
 
 - Responsive Design: The website is designed to provide an optimal viewing experience across a wide range of devices, including desktops, tablets, and mobile phones.
 - Page Navigation: Utilizes React Router to enable seamless navigation between the different sections of the website.
 - Scroll to Top: Implements a feature that automatically scrolls the page to the top when navigating to a new page, enhancing user experience.
 - Styling: All styling is defined in CSS, ensuring consistent and visually appealing design across all pages.
 
-#Pages
+## Table of Contents
+- [Bunnies Home Page](#bunnies-home-page)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Pages](#pages)
+    - [Home](#home)
+    - [Diet](#diet)
+    - [Bath](#bath)
+    - [Play](#play)
+  - [Screenshots](#screenshots)
+    - [Desktop View](#desktop-view)
+    - [Tablet View](#tablet-view)
+    - [Mobile View](#mobile-view)
+  - [Deployment](#deployment)
+  - [Technologies Used](#technologies-used)
+  - [Getting Started](#getting-started)
+  - [Contributors](#contributors)
+  - [License](#license)
 
-##Home
+# Pages
+
+## Home
 
 The Home page serves as the landing page for the Bunnies Home website, providing an introduction to the various sections and features available. It includes images and text to engage visitors and encourage further exploration.
 
-##Diet
+## Diet
 
 The Diet page offers information about the recommended diet for bunnies, including details about suitable foods and feeding habits. Users can find valuable insights and guidance related to bunny nutrition.
 
-##Bath
+## Bath
 
 On the Bath page, users can discover tips and techniques for bathing bunnies effectively and safely. This section provides guidance on maintaining bunny hygiene and keeping them clean and healthy.
 
-##Play
+## Play
 
 The Play page is dedicated to fun and interactive activities for bunnies. Users can explore a variety of playtime ideas, toys, and games to keep their bunnies entertained and active.
 
-#Screenshots
+# Screenshots
 
-##Desktop View
+## Desktop View
 
-##Tablet View
+## Tablet View
 
-##Mobile View
+## Mobile View
 
-#Deployment
+# Deployment
 
 The website is deployed on GitHub Pages and can be accessed at [Bunnies Home](https://designs-by-kate.github.io/figma-project/#/home).
 
-#Technologies Used
+# Technologies Used
 - React.js
 - React Router
 - CSS
   
-#Getting Started
+# Getting Started
 
-##To run the project locally, follow these steps:
+## To run the project locally, follow these steps:
 
 - Clone the repository to your local machine.
 - Navigate to the project directory.
@@ -56,8 +76,8 @@ The website is deployed on GitHub Pages and can be accessed at [Bunnies Home](ht
 - Start the development server with npm start.
 - Open your web browser and visit http://localhost:3000 to view the website.
 
-#Contributors
+# Contributors
 Designs-By-Kate
 
-#License
+# License
 This project is licensed under the MIT License.
