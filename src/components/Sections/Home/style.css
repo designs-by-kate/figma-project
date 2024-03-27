@@ -269,6 +269,16 @@
     .homeGallery {
         margin-top: 10px;
         padding: 20px;
-        max-width: calc(100% - 20px); /* Display two images per row */
+        max-width: calc(100% - 10px); /* Display two images per row */
+    }
+}
+@media screen and (max-width: 350px) {
+    .homeGallery {
+        margin-top: 10px;
+        padding: 5px;
+        max-width: calc(100% - 5px); /* Display two images per row */
+    }
+    .homeGallery img{
+        margin: 5px;
     }
 }
