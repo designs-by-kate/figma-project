@@ -13,6 +13,11 @@ This project is a React-based website for Bunnies World, featuring four main pag
   
   ![image](https://github.com/designs-by-kate/figma-project/assets/146155569/b9912412-409c-4f8f-97dd-5b7061b87c82)
 
+- ## Figma design:
+  
+  ![image](https://github.com/designs-by-kate/figma-project/assets/146155569/3cf381e3-c04c-4789-877e-dfc272c135b3)
+  ![image](https://github.com/designs-by-kate/figma-project/assets/146155569/f83ec298-4a96-4ba1-929f-276c9fc94a46)
+
 
 ## Table of Contents
 - [Bunnies Home Page](#bunnies-home-page)
@@ -78,7 +83,7 @@ The Play page is dedicated to fun and interactive activities for bunnies. Users 
 
 ![image](https://github.com/designs-by-kate/figma-project/assets/146155569/bb63d4b9-c7cc-47ba-be21-0f2ac33109b9)
 ![image](https://github.com/designs-by-kate/figma-project/assets/146155569/ca5162fd-5e2c-4fda-9e4f-608504a9eae5)
-![image](https://github.com/designs-by-kate/figma-project/assets/146155569/556a3276-9b9c-42ee-9e95-2cc59fea6791)
+![image](https://github.com/designs-by-kate/figma-project/assets/146155569/997f8388-0004-446b-9f15-eca162b87231)
 ![image](https://github.com/designs-by-kate/figma-project/assets/146155569/c0c1e1cc-99ec-4faa-8cde-2ac6ed202020)
 ![image](https://github.com/designs-by-kate/figma-project/assets/146155569/160edb82-2f40-4325-a5f0-41ead12770e8)
 ![image](https://github.com/designs-by-kate/figma-project/assets/146155569/257e1e97-3f12-47aa-9eb8-79ed97d54579)
@@ -91,6 +96,7 @@ The website is deployed on GitHub Pages and can be accessed at [Bunnies Home](ht
 - React.js
 - React Router
 - CSS
+- Figma
   
 # Getting Started
 
