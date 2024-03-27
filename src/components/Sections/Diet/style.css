@@ -1,21 +1,27 @@
 .dietSection {
     margin-top: 100px;
     background-image: url('../../../assets/dietBG.png');
-    background-size: cover;/* Cover the entire background */
-    background-repeat: no-repeat;/* Do not repeat the background image */
+    background-size: cover;
+    /* Cover the entire background */
+    background-repeat: no-repeat;
+    /* Do not repeat the background image */
     max-height: 1100px;
     width: 100%;
+    overflow-y: auto;
 }
+
 .dietContainer {
     padding: 100px;
 }
+
 .dietMain {
     margin: 10px;
     display: flex;
 }
 
 .dietText {
-    flex: 0 0 60%; /* Take 60% of the available space */
+    flex: 0 0 60%;
+    /* Take 60% of the available space */
 }
 
 .dietTitle {
@@ -55,7 +61,7 @@
     border-left: solid 5px white;
 }
 
-.dietImgMain img{
+.dietImgMain img {
     position: relative;
     max-width: 500px;
     border-radius: 100%;
@@ -65,9 +71,14 @@
 .dietGallery {
     margin-top: 80px;
     padding-bottom: 50px;
-    display: flex; /* Use flexbox */
-    flex-direction: row; /* Set direction to row */
-    justify-content: space-between; /* Distribute space between items */
+    display: flex;
+    /* Use flexbox */
+    flex-direction: row;
+    /* Set direction to row */
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    /* Distribute space between items */
 }
 
 .dietGallery img {
@@ -75,4 +86,38 @@
     height: auto;
     border-radius: 10%;
     border: solid 5px white;
+}
+
+@media screen and (max-width: 1350px) {
+    .dietSection {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+    .dietGallery img{
+        max-width: 150px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .dietText{
+        flex: 0 0 100%;
+    }
+    .dietGallery {
+        justify-content: center;
+    }
+    .dietGallery img{
+        max-width: 150px;
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .dietContainer{
+        padding: 50px;
+    }
+    .dietTitle{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
 }

@@ -8,18 +8,26 @@ function Bath() {
   return (
     <div className="bathSection">
       <div className="bathContainer">
+      <div className="bathTitleForSmallScreen">
+            <div className="bathTitleIcon">
+              <img src={bathSticker} alt="bathSticker" />
+            </div>
+            <div className="bathTitleText">
+              <h1>Bath Time</h1>
+            </div>
+          </div>
         <div className="bathImg">
           <div className="bathImgL">
             <img src={bathL} alt="bathL" />
           </div>
           <div className="bathTitle">
-          <div className="bathTitleIcon">
-            <img src={bathSticker} alt="bathSticker" />
+            <div className="bathTitleIcon">
+              <img src={bathSticker} alt="bathSticker" />
+            </div>
+            <div className="bathTitleText">
+              <h1>Bath Time</h1>
+            </div>
           </div>
-          <div className="bathTitleText">
-            <h1>Bath Time</h1>
-          </div>
-        </div>
           <div className="bathImgR">
             <img src={bathR} alt="bathR" />
           </div>

@@ -5,6 +5,10 @@
     background-repeat: no-repeat;/* Do not repeat the background image */
     max-height: 1100px;
     width: 100%;
+    overflow-y: auto;
+}
+.bathTitleForSmallScreen{
+    display: none;
 }
 .bathContainer {
     padding: 100px;
@@ -67,3 +71,60 @@
     border-right: solid 5px white;
     padding: 10px;
 }
+@media screen and (max-width: 1250px) {
+    .bathTitle{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .bathTitleText{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1050px) {
+  .bathTitleIcon img{
+    max-width: 100px;
+  }
+  .bathTitleIcon img{
+    max-width: 100px;
+  }
+}
+@media screen and (max-width: 980px) {
+    .bathImg {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bathTitleForSmallScreen{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .bathTitle{
+        display: none;
+    }
+    .bathImg{
+        display: flex;
+        flex-direction: row;
+    }
+  }
+  @media screen and (max-width: 850px) {
+    .bathImg img{
+        max-width: 200px;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .bathContainer{
+        padding: 50px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .bathContainer{
+        padding: 20px;
+    }
+    .bathImg img{
+        max-width: 150px;
+    }
+    .bathTextElement{
+        font-size: 16px;
+    }
+  }

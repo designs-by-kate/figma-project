@@ -2,11 +2,10 @@
     margin-top: 100px;
     background-image: url('../../../assets/playBG.png');
     background-size: cover;
-    /* Cover the entire background */
     background-repeat: no-repeat;
-    /* Do not repeat the background image */
     max-height: 1100px;
     width: 100%;
+    overflow-y: auto;
 }
 
 .playContainer {
@@ -72,4 +71,65 @@
     mask-image: linear-gradient(to bottom left, transparent, black 50%);
     border-bottom: solid 5px white;
     border-right: solid 5px white;
+}
+
+@media screen and (max-width: 1350px) {
+    .playImgMain img{
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .playMain {
+        flex-direction: column;
+    }
+    .playImgMain{
+        justify-content: right;
+        text-align: right;
+    }
+}
+@media screen and (max-width: 850px) {
+    .playTextElement{
+        font-size: 16px;
+    }
+    .playImgMain img{
+        max-width: 450px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .playImgMain img{
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .playContainer{
+        padding: 50px;
+    }
+    .playTitle {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .playImgMain img{
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .playContainer{
+        padding: 50px;
+    }
+    .playTitleIcon img {
+        max-width: 100px;
+    }
+    .playTitleText {
+        font-size: 20px;
+    }
+    .playTextElement{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .playContainer{
+        padding: 10px;
+    }
 }
