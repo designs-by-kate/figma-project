@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from 'react-router-dom';
 
 import "./style.css";
-import closeIcon from "../../assets/closeIconBlue.png";
+import closeIcon from "../../assets/closeIconGreen.png";
 import menuIcon from "../../assets/menuIconMulti.png";
 import logo from "../../assets/logo.jpg";
 import homeSticker from '../../assets/homeSticker.png';

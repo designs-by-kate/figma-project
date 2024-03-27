@@ -7,6 +7,8 @@ import  Diet  from "./components/Sections/Diet";
 import  Play  from "./components/Sections/Play";
 import  Bath  from "./components/Sections/Bath";
 
+import './App.css';
+
 const validRoutes = ['/Bunnies-World/', '/home', '/diet', '/play', '/bath'];
 
 const ScrollToTop = () => {

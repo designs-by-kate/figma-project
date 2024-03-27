@@ -1,9 +1,14 @@
 .navbar {
-  position: fixed; /* Set the navbar to be fixed */
-  top: 0; /* Stick it to the top of the page */
-  left: 0; /* Optionally, align it to the left */
-  width: 100%; /* Make it full-width */
-  max-height: 100px;
+  position: fixed;
+  /* Set the navbar to be fixed */
+  top: 0;
+  /* Stick it to the top of the page */
+  left: 0;
+  /* Optionally, align it to the left */
+  width: 100%;
+  /* Make it full-width */
+  height: auto;
+  /* Set the height of the navbar */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -11,14 +16,16 @@
   padding-left: 50px;
   z-index: 2;
   background: linear-gradient(90deg, #94D0D1 14.72%, #F5F5F5 56.53%);
-  box-shadow: 0 4px 8px #ffffff9d; /* Optionally, add a box shadow for visual separation */
+  box-shadow: 0 4px 8px #ffffff9d;
+  /* Optionally, add a box shadow for visual separation */
+  overflow-y: hidden;
+  /* Hide vertical scrollbar */
 }
-
 
 .title {
   margin-left: 10px;
   font-family: 'Lemon', sans-serif;
-  font-size: 66px;
+  font-size: 40px;
   font-weight: 400;
   text-decoration: none;
   color: #818F05;
@@ -66,41 +73,61 @@
 .title {
   vertical-align: middle;
   display: inline-block;
-  ;
 }
 
-.nav-icon{
+.nav-icon {
   max-width: 50px;
 }
-.nav-text{
-  display:none;
+
+.nav-text {
+  display: none;
 }
 
 .nav-link {
   color: #818F05;
-  display: flex; /* Use flexbox to align items */
-  align-items: center; /* Center vertically */
-  text-decoration: none; /* Remove default underline for links */
+  display: flex;
+  /* Use flexbox to align items */
+  align-items: center;
+  /* Center vertically */
+  text-decoration: none;
+  /* Remove default underline for links */
 }
 
 .nav-link:hover .nav-text {
-  display: inline; /* Display the text on hover */
+  display: inline;
+  /* Display the text on hover */
+}
+
+@media screen and (max-width: 1000px) {
+  .logo {
+    width: 15%;
+    border-top: solid 2px white;
+    border-left: solid 2px white;
+  }
+  .title {
+    font-size: 28px;
+    font-weight: 200;
+    -webkit-text-stroke: 1px white;
+  }
 }
 
 @media screen and (max-width: 830px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    height: auto;
+    /* Reset height to allow content to dictate height */
   }
 
   .menu {
-    position: absolute;
+    position: fixed;
     right: 0;
-    margin-right: 10%;
+    margin-right: 20px;
+    margin-top: 20px;
     flex-direction: column;
     align-items: flex-end;
     gap: 11px;
-    z-index: 3;
+    z-index: 99;
   }
 
   .menuBtn {
@@ -115,8 +142,8 @@
     gap: 13px;
     border-radius: 10px;
     background: linear-gradient(0deg,
-    #86dce7e5 50%,
-    #818f05e0 100%);
+        #86dce7e5 50%,
+        #818f05e0 100%);
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   }
@@ -131,7 +158,26 @@
   }
 
   .title {
-    font-size: 28px;
+    font-size: 35px;
   }
 
+}
+
+@media screen and (max-width: 630px) {
+  .logo {
+    width: 15%;
+    border-top: solid 2px white;
+    border-left: solid 2px white;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: 200;
+    -webkit-text-stroke: 1px white;
+  }
+  .menu {
+    position: fixed;
+    right: 0;
+    margin-right: 15px;
+    margin-top: 0px;
+  }
 }
